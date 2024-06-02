@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Header nav Bar */
+nav {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav img {
+    height: 30px;
+    width: auto;
+}
+
+nav .head ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav .head ul li {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+nav .dl {
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    background: #000;
+    color: white;
+    padding: 15px;
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+/* Body */
+.parent div img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+.parent .img-1 {
+    position: relative;
+    top: 13%;
+    left: 50%;
+    width: 100%;
+}
+
+.parent .img-2 {
+    position: relative;
+    top: 11%;
+    left: 24%;
+    width: 100%;
+}
+
+.parent .img-3 {
+    position: relative;
+    top: 5%;
+    right: 7%;
+    width: 100%;
+}
+
+.text {
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 30%;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 4rem;
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    width: 60%;
+    /* background-color: gainsboro; */
+}
+
+.btn li {
+    padding: 10px;
+    padding-left: 35px;
+}
+
+.btn li:nth-child(1) {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    background: #000;
+    color: white;
+    padding: 15px;
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.btn li:nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    padding: 15px;
+    height: 60px;
+    width: 180px;
+    text-align: center;
+}
+
+.z-img img {
+    height: auto;
+    width: 40vw;
+}
+
+/* body */
+.parent-1 {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.parent-1 img {
+    margin-right: 10px;
+}
+
+.bg {
+    position: absolute;
+    height: 99vh;
+    top: 142%;
+    left: 2%;
+    rotate: 6deg;
+}
+
+.bg-1 {
+    position: absolute;
+    left: 17%;
+    height: 68vh;
+    padding: 2px;
+}
+
+.bg-2 {
+    position: absolute;
+    padding-top: 3px;
+    left: 18%;
+    height: 66vh;
+}
+
+.headline {
+    position: absolute;
+    left: 55%;
+    margin-right: 10%;
+    padding: 2;
+    font-size: 20px;
+
+}
+
+.headline h3 img {
+    height: 25px;
+    width: 30px;
+}
+
+.bg-4 {
+    position: absolute;
+    height: 99vh;
+    top: 250%;
+    left: 48%;
+    rotate: 6deg;
+}
+
+.bg-5 {
+    position: absolute;
+    top: 265%;
+    left: 62%;
+    height: 68vh;
+    padding: 1px;
+}
+
+.bg-6 {
+    position: absolute;
+    top: 265%;
+    padding-top: 3px;
+    left: 63%;
+    height: 66vh;
+}
+
+.parent-3 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+
+}
+
+.adv {
+    margin-right: 10%;
+    margin-top: 15%;
+    padding: 2;
+    font-size: 20px;
+    width: 35vw;
+}
+
+.adv h2 img {
+    height: 30px;
+    width: 30px;
+    background: red;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.adv h2 {
+    align-items: center;
+    display: flex;
+}
+
+.headline h3 {
+    display: flex;
+    align-items: center;
+}
+
+.bg-7 {
+    position: absolute;
+    height: 99vh;
+    top: 345%;
+    left: 2%;
+    rotate: 6deg;
+}
+
+.bg-8 {
+    position: absolute;
+    top: 360%;
+    left: 17%;
+    height: 68vh;
+    padding: 2px;
+}
+
+.bg-9 {
+    top: 361%;
+    position: absolute;
+    padding-top: 7px;
+    left: 18.2%;
+    height: 64vh;
+    border-radius: 15px;
+}
+
+.bg-10 {
+    position: absolute;
+    margin-top: 21.2%;
+    height: 150px;
+    margin-left: 9%;
+}
+
+.parent-2 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.parent-2 .full {
+    margin-right: 10%;
+    margin-top: 24%;
+    padding: 2;
+    font-size: 20px;
+    width: 35vw;
+    position: absolute;
+    left: 55%;
+}
+
+.parent-2 h2 img {
+    height: 40px;
+    width: 40px;
+    background: red;
+    color: black;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.parent-2 h2 {
+    align-items: center;
+    display: flex;
+}
+
+.test {
+    margin-top: 60%;
+    margin-left: 40%;
+    width: 25%;
+    font-size: 20px;
+}
+
+.test p {
+    margin-left: 25%;
+}
+
+.bg-11 {
+    position: absolute;
+    height: 99vh;
+    top: 470%;
+    left: 2%;
+    rotate: 6deg;
+}
+
+.parent-4 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bg-12 {
+    position: absolute;
+    margin-top: 2%;
+    height: 400px;
+    margin-left: -5%
+}
+
+.bg-13 {
+    position: absolute;
+    margin-top: 2%;
+    height: 400px;
+    margin-left: 15%
+}
+
+.bg-14 {
+    position: absolute;
+    margin-top: 15%;
+    height: 400px;
+    margin-left: 5%
+}
+
+.bg-16 {
+    position: absolute;
+    margin-top: 27%;
+    height: 400px;
+    margin-left: -4%;
+}
+
+.bg-17 {
+    position: absolute;
+    margin-top: 29%;
+    height: 400px;
+    margin-left: 17%;
+}
+
+.bg-15 {
+    position: absolute;
+    margin-top: 22.5%;
+    height: 60px;
+    margin-left: 19.8%;
+    background: red;
+    padding: 15px;
+    border-radius: 30%;
+}
+
+.app {
+    margin-top: 10%;
+    margin-left: 56%;
+    width: 40%;
+}
+
+.app p {
+    padding-top: 10%;
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.app h3 {
+    padding-top: 30px;
+}
+
+
+.faq {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.faq h3 {
+    color: red;
+}
+
+.ques {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ques .bgr {
+    background: red;
+    border-radius: 10px;
+    color: white;
+    padding: 2%;
+    width: 50%;
+    opacity: 0.7;
+    margin-right: 4%;
+    margin-top: 5%
+}
+
+.bgr p {
+    padding-top: 4%;
+    font-size: 1.2rem;
+}
+
+.ques .nbgr {
+    border-radius: 10px;
+    color: black;
+    padding: 2%;
+    opacity: 0.7;
+    width: 50%;
+    margin-right: 4%;
+    margin-top: 5%
+}
+
+.nbgr p {
+    padding-top: 4%;
+    font-size: 1.2rem;
+}
+
+.phone {
+    display: flex;
+    margin: 10%;
+    padding: 5%;
+    height: 76vh;
+    width: 78vw;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.phone .ip-6 {
+    position: absolute;
+    height: 60vh;
+    right: 11.1%
+}
+
+.phone .ip-5 {
+    position: absolute;
+    height: 57vh;
+    margin-top: 1%;
+    right: 11%;
+    z-index: 1;
+}
+
+.phone .ip-4 {
+    position: absolute;
+    height: 54vh;
+    margin-top: 2.2%;
+    right: 11.2%;
+    z-index: 2;
+}
+
+.phone .ip-3 {
+    position: absolute;
+    height: 60vh;
+    right: 18%;
+    padding-top: 4%;
+    z-index: 3;
+}
+
+.phone .ip-2 {
+    position: absolute;
+    height: 58vh;
+    width: autofill;
+    right: 19%;
+    padding-top: 4.4%;
+    z-index: 4;
+}
+
+.phone .ip-1 {
+    position: absolute;
+    height: 62vh;
+    right: 25%;
+    padding-top: 5%;
+    z-index: 5
+}
+
+.apple {
+    color: white;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.apple h1 {
+    font-weight: 1000;
+}
+
+.apple p {
+    margin-top: 5%;
+    opacity: 0.9;
+}
+
+.phone .head {
+    position: absolute;
+    height: 80vh;
+    right: 10%;
+    margin-top: -9%;
+}
+
+.phone .tail {
+    position: absolute;
+    height: 60vh;
+    left: 6%;
+    margin-top: 4%;
+}
+
+.phone .apple a {
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.phone .apple a img {
+    height: 45px;
+    width: 45px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+/* Footer section */
+
+.footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .contact ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer .contact ul img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer .contact ul li {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.footer .link ul li {
+    padding: 10px;
+}
+
+.footer .link ul li:first-child {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer .link ul {
+    list-style: none;
+}
+
+.footer .contact ul li .uifry {
+    height: 6vh;
+    width: 10vw;
+    margin-top: -5%;
+}
+
+.footer .link .input {
+    display: flex;
+}
+
+.footer .link .input input {
+    padding: 20px;
+    border: none;
+    width: 150px;
+}
+
+.footer .link .input p {
+    padding: 20px;
+    background: black;
+    width: 160px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+.cp{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.cp p{
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    margin-top:4%;
+    margin-bottom: 4%;
+}
